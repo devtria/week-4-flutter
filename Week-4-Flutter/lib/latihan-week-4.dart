@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Aplikasi Mahasiswa'),
+          title: const Text('Dashboard Mahasiswa'),
         ),
         body: Center(
           child: Column(
@@ -30,6 +30,10 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'NIM: 1124160002',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+              ),
+              Text(
+                'Kelas: TI-24 SE-2',
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),
             ],
